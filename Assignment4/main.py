@@ -5,7 +5,10 @@
 #	position, efficiently searches for elements, and compares a
 #	recursive and non-recursive solution.
 
-import sys
-sys.path.insert(0, '../Assignment2')
+from SortedList import SortedList
 
-from LinkedList import LinkedList
+def main():
+	pass
+
+if __name__ == '__main__':
+	main()
