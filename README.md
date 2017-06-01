@@ -22,6 +22,8 @@ Create a list that automatically inserts values in the correct position, efficie
 
 Implement a basic binary tree and analyze your structure's behaviors.
 
+ - Has been concatenated with Assignment 6
+
 ## Assignment 6
 
 Implement a BST and compare the complexity of insert and search to a basic binary tree.
