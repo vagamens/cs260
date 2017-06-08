@@ -5,3 +5,11 @@
 #	compare collsiions and complexity (of insert and contains 
 #	methods)
 
+from hashTables import DumbHashTable
+
+def main():
+	dh = DumbHashTable()
+	sh = SmartHashTable()
+
+if __name__ == '__main__':
+	main()
