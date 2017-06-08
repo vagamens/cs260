@@ -57,3 +57,7 @@ class SmartHashTable(object):
 			for x in range((keyPair - len(self.table))):
 				self.table.append(LinkedList)
 		self.table[keyPair[0]].append(keyPair[1])
+
+	def getHash(self, value):
+		keyPair = DumbHashTable.hash(value)
+		
