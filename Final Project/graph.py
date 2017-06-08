@@ -36,6 +36,7 @@ class Graph(object):
 			if(node == dest):
 				continue
 			if(dest in node):
+				weight += node[dest]
 				weight += getMinimumWeight(start, node)
 			weights.append(weight)
 		weights.sort()
